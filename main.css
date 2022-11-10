@@ -100,9 +100,123 @@ line-height: 76px;
 .about__info {
     max-width: 550px;
 }
+.features {
+    background-color: #fff;
+    padding: 115px 60px;
 
-.form__container {
-    width: 550px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 50px;
+}
+.card {
+    padding: 35px 40px 25px 40px;
+    border: 1px solid #D9E4E6; 
+    border-radius: 5px;
+
+ }
+
+ .card p {
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 22;
+ }
+
+ .card__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #eaeff9;
+    border-radius: 50%;
+
+
+ }
+
+.card__logo__yellow {
+    color:  #ffb406;
+}
+
+.card__logo__red {
+     color: #ad1714;
+}
+
+.card__logo__green {
+    color: #22a030;
+}
+
+.features__border {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px #E6EAF4;
+}
+
+.features__feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.features__feedback-left {
+    margin-right: 10px;
+}
+
+.features__feedback-left h2 {
+    font-size: 48px;
+    }
+
+.features__feedback-left p {
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.features__feedback-right {
+    display: flex;
+    align-items: center;
+} 
+
+.features__box {
+    padding: 30px 40px 25px 40px;
+    border-radius: 25px;
+    color: white;
+    height: 50%;
+    
+}
+
+.features__box h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.features__savings-box {
+    background-color: #dc5e26;
+    box-shadow: 0 6px 0 rgb(221 95 38 / 20%);
+    margin-right: 30px;
+    border-radius: 25px;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+   
+}
+
+.features__rate-box {
+    background-color: #1D263A;
+    box-shadow: 0 6px 0 rgb(29 38 58 / 20%);
+    border-radius: 25px;
+    height: 150px;
+    width: 205px;
+    text-align: center;   
+}
+
+.stars {
+   color: #ff7039;
 }
 
 .form {
@@ -114,6 +228,11 @@ line-height: 76px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form__container {
+    width: 550px;
+    font-size: 48px;
 }
 
 .form form {
@@ -239,7 +358,7 @@ input {
         height: 75px;
     }
  }
-  
+
  /* Мобильные устройства */
  @media (max-width: 720px) {
     header {
@@ -307,3 +426,8 @@ input {
     animation-iteration-count: 1;
     opacity: 0;
  } 
+
+/* .features { */
+    /* padding: 50px 10px; */
+/* } */
+
